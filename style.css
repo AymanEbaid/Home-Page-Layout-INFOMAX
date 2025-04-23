@@ -1,0 +1,611 @@
+body {
+
+    margin: 0;
+}
+
+
+.nav-s{
+     background-color: rgba(0, 0, 0, 0.829);
+    position: sticky !important;
+    top: 0;
+    justify-content: right !important;
+    
+
+}
+.clooses{
+    padding-left: 50px  !important;
+}
+
+.nav-buttom {
+    color: #FFF000 !important;
+    font-size: 2em!important;
+    cursor: pointer!important;
+}
+
+.nav-buttom:hover {
+    color: white!important;
+}
+
+.nav-s ul a {
+    font-size: 1.1em;
+    color: white;
+    padding: 10px 20px;
+    margin: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav ul a:hover {
+    background-color: #444444;
+    border-radius: 10px;
+    color: white !important;
+
+}
+
+
+
+
+.cloos{
+    justify-content: center !important;
+}
+
+.home {
+    color: #FFF000 !important;
+}
+
+.login-5 {
+    background-color: #444444 !important;
+    padding: 5px 25px !important;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.title {
+    background-color: #FFF000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-1 {
+    font-size: 3.5em;
+    text-transform: uppercase;
+
+}
+
+.title-2 {
+
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.title-2 p {
+    font-size: 1.5em;
+    margin-left: 70px;
+    margin-bottom: 5px;
+
+}
+
+.information {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: skyblue;
+}
+
+.information h2 {
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.flexa {
+    text-align: center;
+
+}
+
+.imgs {
+    background-color: #444444;
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.flexa ul {
+    list-style-image: url(imgs/circle-check-solid.svg);
+    list-style-position: inside;
+    text-align: left;
+}
+
+.contactme {
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.contactme p {
+    font-size: 1.7em;
+}
+
+.contact-1 {
+    display: flex;
+}
+
+.contact-2 {
+    background-image: url(imgs/download.webp);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+    transform: rotateZ(342deg);
+}
+
+.bottom-nav {
+    background: #57C700;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.companies {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+.companies-1 {
+    width: 60%;
+    margin: auto;
+}
+
+.companies h2 {
+    font-size: 2em;
+}
+
+.companies p {
+    font-size: 1.5em;
+}
+
+.logo {
+    font-weight: bold;
+    padding-bottom: 75px;
+}
+
+.logo-1,
+.logo-2,
+.logo-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-1 i,
+.logo-2 i,
+.logo-3 i {
+    padding-right: 5px;
+}
+
+.Github {
+    font-weight: bolder;
+    font-size: large;
+    padding-right: 68px;
+    margin-top: 25px;
+    font-size: 1.5em;
+}
+
+.Github p {
+    margin: 0px;
+}
+
+.Disney {
+    margin-right: -32px;
+    margin-top: -15px;
+    font-size: 1.5em;
+}
+
+.Zendesk img {
+    vertical-align: middle;
+}
+
+.Path p {
+    margin-top: 2px;
+    text-align: left;
+}
+
+.view-more {
+    border: 2px solid #979292;
+    padding: 15px;
+    width: fit-content;
+    margin: auto;
+    text-transform: capitalize;
+}
+
+.view-more:hover {
+    background-color: #292929;
+}
+
+.double_quto {
+    background-color: #FFF000;
+    color: rgb(131, 61, 61);
+    padding: 50px;
+}
+
+.double_quto-1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
+.login {
+    padding-top: 109px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.login-header,
+.login-2 {
+    width: 35%;
+}
+
+
+.login-header h1,
+.login-2 h1 {
+    font-size: 2em;
+    font-weight: normal;
+    margin-left: 87px;
+}
+
+.login-header p,
+.login-2 p {
+    color: #666666;
+    margin-left: 87px;
+}
+
+.login-2 a {
+    color: #666666;
+}
+
+form div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+
+form label {
+    text-transform: capitalize;
+    width: 10%;
+
+}
+
+form input {
+    width: 55%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+form textarea {
+    width: 55%;
+    height: 125px;
+    resize: none;
+}
+
+form span {
+    color: red;
+    padding-left: 5px;
+}
+
+
+
+
+
+.trust {
+    background-color: #333333;
+    color: #999999;
+}
+
+.trusted {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.trusted i {
+    padding: 5px;
+}
+
+.trusted p {
+    font-size: 28px;
+}
+
+.amazoon p {
+    margin-bottom: 5px;
+}
+
+.amazoon img {
+    margin-bottom: -15px;
+}
+
+footer {
+    
+    background-color: black;
+    
+}
+
+.footers {
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.footer-1 {
+    width: 50%;
+}
+
+.footer-2 {
+    width: 50%;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-f {
+    color: white;
+}
+
+.icon-f img {
+    vertical-align: middle;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.icon-f span {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.icon-f p {
+    line-height: 10px;
+    padding-top: 5px;
+    height: 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.icon-f ul {
+    padding-left: 1px;
+}
+
+.icon-f li {
+    list-style-type: none;
+}
+
+.icon-f li a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon-f li a:hover {
+    color: #fff000;
+}
+
+.footer-copy {
+    color: #999999;
+    padding: 30px;
+    margin: 0;
+}
+
+.footer-i {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 15px;
+
+}
+
+
+.footer-i img {
+    margin: 10px;
+}
+
+.hotline a {
+    color: #999999;
+}
+
+.hotline p {
+    margin: 5px;
+}
+
+.colors {
+    color: white;
+}
+
+.icon-fo {
+    width: fit-content;
+    margin-left: 77%;
+    padding-bottom: 32px;
+}
+
+.icon-fo p {
+    line-height: 10px;
+    padding-top: 5px;
+    height: 0px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.icon-fo ul {
+    padding-left: 1px;
+}
+
+.icon-fo li {
+    list-style-type: none;
+}
+
+.icon-fo li a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon-fo li a:hover {
+    color: #fff000;
+}
+
+.ss {
+    color: #909999;
+    padding-top: 15px;
+    text-align: right;
+    
+    padding: 30px 15px;
+  
+}
+.ss a{
+ text-decoration: none;
+ padding: 20px;
+ color: #909999;
+}
+
+.ss a:hover {
+    color: #fff000;
+}
+.form-buttom1 {
+    font-size: 1em;
+    margin: 15px;
+    margin-left: 265px;
+    cursor: pointer;
+    width: 39%;
+    background: #57C700;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+@media screen  and (max-width: 768px) {
+    .title-2 p {
+        margin-left: 0;
+    }
+    .info {
+        display: block;
+    }
+    .flexa{
+        margin-top: 50px;
+    }
+    .contactme{
+        display: block;
+    }
+    .companies{
+        padding: 15px;
+    }
+    .companies-1{
+        width: 100%;
+    } 
+    .login {
+        display: block;
+    }
+    .login-header {
+        width: 100%;
+        padding: 15px;
+    }
+    .login-header h1 {
+        margin-left: 45px;
+
+    }
+    .login-header p{
+        margin-left: 48px;
+    }
+    .login-header form div {
+        justify-content: space-between;
+    }
+     .form-buttom1 {
+        width: 40%;
+        margin: 10px 15px 15px 147px;
+        padding: 8px 8px;
+    
+    }
+    .login-2 {
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+    .login-2 p {
+        margin-left: 0px;
+    }
+    .login-2 h1 {
+        margin-left: 0px;
+    }
+    .trusted{
+        flex-wrap: wrap;
+    }
+    .amazoon p {
+        text-align: center;
+    }
+    .footers{
+       padding: 15px;
+       display: block;
+       width: 100%;
+    }
+    .footer-1{
+        width: 100%;
+    }
+    .icon-f{
+        width: 30%;
+    }
+    .icon-f p{
+        font-size: 15px;
+    }
+    .footer-copy {
+        text-align: center;
+        padding: 15px;
+    }
+    .footer-2 {width: 100%;
+    }
+    .icon-fo {
+        text-align: center;
+        margin: auto;
+
+    }
+    .logo-1{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .logo-2{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .logo-3{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .Github{
+        padding-right:0;
+        margin-top: 0;
+    }
+
+ }
+
